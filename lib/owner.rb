@@ -35,6 +35,10 @@ class Owner
     pets[:fishes] << Fish.new(name)
   end
 
+  def buy_cat(name)
+    pets[:fishes] << Fish.new(name)
+  end
+
   def walk_dogs
     pets[:dogs].collect {|dog| dog.mood = "Happy"}
   end
