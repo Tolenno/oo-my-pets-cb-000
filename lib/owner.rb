@@ -38,7 +38,7 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[:dogs].collect (&:mood = "Happy")
+    self.pets[:dogs].collect(&:mood = "Happy")
     binding.pry
   end
 end
