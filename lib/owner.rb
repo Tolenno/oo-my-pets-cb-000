@@ -48,10 +48,10 @@ class Owner
   end
 
   def play_with_cats
-    pets[:dogs].collect {|dog| cat.mood = "happy"}
+    pets[:dogs].collect {|cat| cat.mood = "happy"}
   end
 
   def feed_fish
-    pets[:dogs].collect {|dog| dog.mood = "happy"}
+    pets[:dogs].collect {|fish| dog.mood = "happy"}
   end
 end
