@@ -32,7 +32,7 @@ class Owner
   end
 
   def pets
-
+    @pets
   end
 
   def buy_fish(name)
