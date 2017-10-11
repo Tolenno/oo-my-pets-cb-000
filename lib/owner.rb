@@ -32,8 +32,7 @@ class Owner
   end
 
   def buy_fish(name)
-    binding.pry
-    test = @pets[:fishes] = Fish.new(name)
+@pets[:fishes] = Fish.new(name)
   end
 
   def walk_dogs
