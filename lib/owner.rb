@@ -33,11 +33,11 @@ class Owner
 
   def buy_fish(name)
     binding.pry
-    fish = Fish.new(name)
-    self.pets[:fishes] = fish
+    self.pets[:fishes] = Fish.new(name)
   end
 
   def walk_dogs
+    binding.pry
     self.pets[:dogs].collect {|dog| dog.mood = "Happy"}
   end
 end
