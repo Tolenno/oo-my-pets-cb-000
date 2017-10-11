@@ -52,6 +52,6 @@ class Owner
   end
 
   def feed_fish
-    pets[:dogs].collect {|fish| dog.mood = "happy"}
+    pets[:fishes].collect {|fish| fish.mood = "happy"}
   end
 end
