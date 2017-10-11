@@ -28,7 +28,7 @@ class Owner
   end
 
   def pets
-    @pets = {cats: [], dogs: [], fishes: []}
+    @pets = {cats: [], dogs: [], fishes: []} unless self.pets
   end
 
   def buy_fish(name)
