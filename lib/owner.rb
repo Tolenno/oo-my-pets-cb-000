@@ -38,6 +38,6 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[:dogs].each {|dog| dog.mood = "Happy"}
+    self.pets[:dogs].collect {|dog| dog.mood = "Happy"}
   end
 end
