@@ -60,5 +60,6 @@ class Owner
     pets[:fishes].collect {|fish| fish.mood = "nervous"}
     pets[:dogs].collect {|dog| dog.mood = "nervous"}
     pets[:cats].collect {|cat| cat.mood = "nervous"}
+    pets.clear
   end
 end
