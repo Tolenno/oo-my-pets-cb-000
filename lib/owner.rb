@@ -37,7 +37,3 @@ class Owner
     binding.pry
   end
 end
-
-
-
-# 
