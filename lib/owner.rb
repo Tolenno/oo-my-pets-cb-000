@@ -27,7 +27,7 @@ class Owner
     "I am a #{@species}."
   end
 
-  def create_pets
+  def pets
     @pets = {cats: [], dogs: [], fishes: []}
   end
 
