@@ -36,4 +36,8 @@ class Owner
     fish = Fish.new(name)
     self.pets[:fishes] = fish
   end
+
+  def walk_dogs
+
+  end
 end
