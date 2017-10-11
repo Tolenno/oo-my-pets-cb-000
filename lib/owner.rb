@@ -31,6 +31,10 @@ class Owner
     @pets = {cats: [], dogs: [], fishes: []}
   end
 
+  def pets
+
+  end
+
   def buy_fish(name)
     binding.pry
     @pets[:fishes] = Fish.new(name)
