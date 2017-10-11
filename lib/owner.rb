@@ -7,7 +7,7 @@ class Owner
 
   def initialize(species)
     @species = species
-    @pets
+    pets
     self.class.all << self
   end
 
@@ -32,7 +32,6 @@ class Owner
   end
 
   def buy_fish(name)
-    binding.pry
     self.pets[:fishes] = Fish.new(name)
   end
 
