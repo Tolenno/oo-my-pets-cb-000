@@ -39,5 +39,6 @@ class Owner
 
   def walk_dogs
     self.pets[:dogs].collect {|dog| dog.mood = "Happy"}
+    binding.pry
   end
 end
