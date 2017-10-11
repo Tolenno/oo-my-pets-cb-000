@@ -7,7 +7,7 @@ class Owner
 
   def initialize(species)
     @species = species
-    create_pets
+    pets
     self.class.all << self
   end
 
