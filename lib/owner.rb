@@ -51,7 +51,7 @@ class Owner
     pets[:dogs].collect {|dog| dog.mood = "happy"}
   end
 
-  def walk_dogs
+  def feed_fish
     pets[:dogs].collect {|dog| dog.mood = "happy"}
   end
 end
