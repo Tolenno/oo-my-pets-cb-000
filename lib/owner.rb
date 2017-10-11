@@ -61,10 +61,9 @@ class Owner
     pets[:dogs].collect {|dog| dog.mood = "nervous"}
     pets[:cats].collect {|cat| cat.mood = "nervous"}
     pets.clear
-    binding.pry
   end
 
   def list_pets
-    
+
   end
 end
